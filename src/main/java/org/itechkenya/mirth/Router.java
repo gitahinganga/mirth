@@ -184,8 +184,9 @@ public class Router {
         return destinationAddress.substring(m + 1, n);
     }
 
-    /**
-     * 
+    /*
+     * Returns the gateway address for this router. If this is a top level router,
+     * a {@link RuntimeException} is thrown.
      */
     private String getGatewayAddress() {
         String gatewayAddress = "";
@@ -207,15 +208,17 @@ public class Router {
     }
 
     /**
-     *
+     * Returns the application address of the immediate next node.
      */
     private String getNearbyAddress(String nearbyToken) {
         String[] nearby = nearbyToken.split("\\.");
         return routerAddress + "." + nearby[0];
     }
 
-    /**
-     *
+    /*
+     * Returns the channel name based on an application address. The channel
+     * name is simply the application address with all dots replaced with
+     * under score characters.
      */
     private String getChannelName(String applicationAddress) {
         return applicationAddress.replace(".", "_");
