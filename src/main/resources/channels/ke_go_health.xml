@@ -2,19 +2,19 @@
   <id>6de50437-0198-4c9a-aa58-19915e5896f8</id>
   <nextMetaDataId>2</nextMetaDataId>
   <name>ke_go_health</name>
-  <description>This is a routing channel. It listens for incoming messages on a HTTP connection. It needs to be configured with a router address i.e. a mapping named routerAddress. At the source, it filters any message which does not have a value for &quot;receiving application&quot;. At the destination, it filters the message if routerAddress has no value.</description>
+  <description>Routing channel: National</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411202751559</time>
+    <time>1414132898255</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>8</revision>
+  <revision>10</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
     <properties class="com.mirth.connect.connectors.tcp.TcpReceiverProperties" version="3.0.3">
       <listenerConnectorProperties version="3.0.3">
-        <host>127.0.0.1</host>
+        <host>0.0.0.0</host>
         <port>9301</port>
       </listenerConnectorProperties>
       <responseConnectorProperties version="3.0.3">

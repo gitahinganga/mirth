@@ -2,13 +2,13 @@
   <id>2a315a44-e1ee-411a-9397-48eb86abc772</id>
   <nextMetaDataId>3</nextMetaDataId>
   <name>ke_go_health_county2_lis</name>
-  <description></description>
+  <description>Delivery channel: County 1 (LIS)</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411129068364</time>
+    <time>1414132832543</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>5</revision>
+  <revision>6</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>

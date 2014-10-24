@@ -2,13 +2,13 @@
   <id>4fa24721-5af3-422a-b748-900078c79a23</id>
   <nextMetaDataId>2</nextMetaDataId>
   <name>ke_go_health_county1</name>
-  <description>This is a routing channel. It listens for incoming messages on a HTTP connection. It needs to be configured with a router address i.e. a mapping named routerAddress. At the source, it filters any message which does not have a value for &quot;receiving application&quot;. At the destination, it filters the message if routerAddress has no value.</description>
+  <description>Routing channel: County 1</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411202757736</time>
+    <time>1414132912799</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>9</revision>
+  <revision>10</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>

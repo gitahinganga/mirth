@@ -2,13 +2,13 @@
   <id>6f919d5e-0417-4072-9929-1c3983f5d9dc</id>
   <nextMetaDataId>3</nextMetaDataId>
   <name>ke_go_health_county1_repository</name>
-  <description></description>
+  <description>Delivery channel: County 1 (Repository)</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411047798496</time>
+    <time>1414132821279</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>6</revision>
+  <revision>7</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>

@@ -2,13 +2,13 @@
   <id>49a6457f-6011-4bf4-b813-66eb03e1ad51</id>
   <nextMetaDataId>3</nextMetaDataId>
   <name>ke_go_health_lis</name>
-  <description></description>
+  <description>Delivery channel: National (LIS)</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411128574106</time>
+    <time>1414132944158</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>5</revision>
+  <revision>6</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>

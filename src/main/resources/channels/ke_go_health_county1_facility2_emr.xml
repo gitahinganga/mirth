@@ -2,13 +2,13 @@
   <id>3987fb88-daf6-4fa9-a196-16441fef6029</id>
   <nextMetaDataId>3</nextMetaDataId>
   <name>ke_go_health_county1_facility2_emr</name>
-  <description></description>
+  <description>Delivery channel: Facility 2 (EMR)</description>
   <enabled>true</enabled>
   <lastModified>
-    <time>1411048052502</time>
+    <time>1414132786559</time>
     <timezone>Africa/Nairobi</timezone>
   </lastModified>
-  <revision>5</revision>
+  <revision>6</revision>
   <sourceConnector version="3.0.3">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
